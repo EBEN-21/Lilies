@@ -1,0 +1,154 @@
+[
+    {
+      "id": 1,
+      "title": "Stir Fry Pasta",
+      "price": 1000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "Tasty good food for you",
+      "count": 0,
+      "stock": 10,
+      "ready": true
+    },
+    {
+      "id": 2,
+      "title": "Stir Fry Pasta",
+      "price": 1200,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "Tasty good food for you",
+      "count": 0,
+      "stock": 25,
+      "ready": true
+    },
+    {
+      "id": 3,
+      "title": "Caesar Salad",
+      "price": 1000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 3.png",
+      "description": "Crisp romaine lettuce, parmesan cheese, croutons, and Caesar dressing.",
+      "count": 0,
+      "stock": 16,
+      "ready": false
+    },
+    {
+      "id": 4,
+      "title": "Stir Fry Pasta",
+      "price": 2000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "Creamy pasta with pancetta, egg, and Parmesan cheese.",
+      "count": 0,
+      "stock": 10,
+      "ready": true
+    },
+    {
+      "id": 5,
+      "title": "Sushi Platter",
+      "price": 3000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 3.png",
+      "description": "Assorted sushi rolls with fresh fish and vegetables.",
+      "count": 0,
+      "stock": 40,
+      "ready": false
+    },
+  
+    {
+      "id": 6,
+      "title": "Pad Thai",
+      "price": 1400,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 3.png",
+      "description": "A popular Thai stir-fried noodle dish with shrimp, tofu, peanuts, and bean sprouts.",
+      "count": 0,
+      "stock": 14,
+      "ready": true
+    },
+    {
+      "id": 7,
+      "title": "Chicken Alfredo",
+      "price": 2500,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 3.png",
+      "description": "Creamy pasta dish with grilled chicken, fettuccine noodles, and Parmesan cheese.",
+      "count": 0,
+      "stock": 5,
+      "ready": true
+    },
+    {
+      "id": 8,
+      "title": "Beef Tacos",
+      "price": 1700,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "Soft tortillas filled with seasoned ground beef, lettuce, cheese, and salsa.",
+      "count": 0,
+      "stock": 23,
+      "ready": true
+    },
+    {
+      "id": 9,
+      "title": "Vegetable Stir Fry",
+      "price": 1000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "A mix of fresh vegetables sautéed in a savory sauce, served over rice.",
+      "count": 0,
+      "stock": 34,
+      "ready": true
+    },
+    {
+      "id": 10,
+      "title": "Grilled Salmon",
+      "price": 4000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "Fresh salmon fillets grilled to perfection, served with lemon and herbs.",
+      "count": 0,
+      "stock": 12,
+      "ready": true
+    },
+    {
+      "id": 11,
+      "title": "Lamb Kebabs",
+      "price": 3000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 3.png",
+      "description": "Skewered and grilled marinated lamb pieces, served with a side of tzatziki.",
+      "count": 0,
+      "stock": 29,
+      "ready": true
+    },
+    {
+      "id": 12,
+      "title": "Eggplant Parmesan",
+      "price": 1400,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 3.png",
+      "description": "Breaded and fried eggplant slices layered with marinara sauce and mozzarella cheese.",
+      "count": 0,
+      "stock": 32,
+      "ready": true
+    },
+    {
+      "id": 13,
+      "title": "Clam Chowder",
+      "price": 1800,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "Creamy soup with clams, potatoes, onions, and celery.",
+      "count": 0,
+      "stock": 19,
+      "ready": true
+    },
+    {
+      "id": 14,
+      "title": "Beef Stroganoff",
+      "price": 2500,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 2.png",
+      "description": "Tender beef strips in a creamy mushroom sauce, served over egg noodles.",
+      "count": 0,
+      "stock": 45,
+      "ready": true
+    },
+    {
+      "id": 15,
+      "title": "Shrimp Scampi",
+      "price": 2000,
+      "image": "./assets/bon-vivant-qom5MPOER-I-unsplash 3.png",
+      "description": "Succulent shrimp sautéed in garlic butter sauce, tossed with linguine.",
+      "count": 0,
+      "stock": 23,
+      "ready": true
+    }
+  ]
+  
