@@ -65,13 +65,13 @@ const CheckoutBtn = ({handleCheckout}) => {
 
                 <div className="flex flex-col items-center mt-6 ">
                     <form className="flex flex-col">
-                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] " placeholder="Reciever's Name" />
+                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] " placeholder="Reciever's Name" required />
 
-                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="Phone Number" />
+                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="Phone Number" required/>
 
-                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="Postal Code" />
+                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="Postal Code"  required/>
 
-                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="House Address" />
+                        <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="House Address" required/>
 
                     </form>
                         <button className="w-[488px] h-[60px] bg-[#00302E] mt-8 text-center font-[600] text-[13px] text-[#F3C294]" onClick={handleCheckoutClick}>Make Payement</button>
