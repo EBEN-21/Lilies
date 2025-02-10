@@ -11,6 +11,8 @@ const App = () => {
 
   const [cart, setCart] = useState([]);
 
+  const [order, setOrder] = useState([]);
+
     const [count, setCount] = useState(0);
 
     const handleIncrement = (id) => {
@@ -36,10 +38,7 @@ const App = () => {
         setCart(newCart);
         toast.success("Item added to cart", {autoClose: 1000});
         setCount(0);
-      }
-    
-      
-      
+      }  
 
     };  
 
@@ -49,6 +48,23 @@ const App = () => {
       setCart(removeItem);
       toast.error("Item removed from cart", {autoClose: 1000});
     }
+
+    const handleCheckout = () => {
+      // Move cart items to orders
+      const newOrder = cart.map((item) => ({...item}));
+    
+      // Append new orders to existing ones
+      setOrder((prevOrder) => [...prevOrder, ...newOrder]);
+    
+      // Clear the cart after checkout
+      setCart([]);
+    };
+
+    const handleRemoveOrder = (id) => {
+      // Filter out the order with the matching ID
+      setOrder((prevOrder) => prevOrder.filter((order) => order.id !== id));
+    };
+    
 
   return (
       <div>
@@ -64,7 +80,10 @@ const App = () => {
             handleAddToCart={handleAddToCart}
             cart={cart}
             handleRemoveFromCart={handleRemoveFromCart}
-            
+            order={order}
+            handleCheckout={handleCheckout}
+            handleRemoveOrder={handleRemoveOrder}
+         
             />} />
           </Routes>
       </div>

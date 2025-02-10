@@ -29,7 +29,7 @@ const customStyles = {
 
 Modal.setAppElement("#root");
 
-const CheckoutBtn = () => {
+const CheckoutBtn = ({handleCheckout}) => {
 
     let subtitle;
       const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -38,14 +38,14 @@ const CheckoutBtn = () => {
         setIsOpen(true);
       }
     
-      function afterOpenModal() {
-        // references are now sync'd and can be accessed.
-        subtitle.style.color = "#f00";
-      }
-    
       function closeModal() {
         setIsOpen(false);
       }
+
+      const handleCheckoutClick = () => {
+        handleCheckout(); // This function will handle transferring the cart to the orders
+        closeModal(); // Close the modal after checkout
+      };
 
   return (
     <div>
@@ -56,7 +56,6 @@ const CheckoutBtn = () => {
 
         <Modal
                 isOpen={modalIsOpen}
-                onAfterOpen={afterOpenModal}
                 onRequestClose={closeModal}
                 style={customStyles}
                 contentLabel="Example Modal"
@@ -64,7 +63,7 @@ const CheckoutBtn = () => {
             <div className="flex flex-col mt-5 px-5">
                 <h2 className="w-[84px] font-[600] text-[17px] text-[#00302E] ">Checkout</h2>
 
-                <div className="flex items-center mt-6 ">
+                <div className="flex flex-col items-center mt-6 ">
                     <form className="flex flex-col">
                         <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] " placeholder="Reciever's Name" />
 
@@ -74,8 +73,8 @@ const CheckoutBtn = () => {
 
                         <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="House Address" />
 
-                        <button className="w-[488px] h-[60px] bg-[#00302E] mt-8 text-center font-[600] text-[13px] text-[#F3C294] ">Make Payement</button>
                     </form>
+                        <button className="w-[488px] h-[60px] bg-[#00302E] mt-8 text-center font-[600] text-[13px] text-[#F3C294]" onClick={handleCheckoutClick}>Make Payement</button>
                 </div>
             </div>
         </Modal>

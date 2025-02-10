@@ -7,7 +7,7 @@ import CartBtn from './CartBtn'
 import { IoExitOutline } from "react-icons/io5";
 
 
-const Sidebar = ({cart, handleRemoveFromCart}) => {
+const Sidebar = ({cart, handleRemoveFromCart, order, handleCheckout, handleRemoveOrder}) => {
 
   let subtitle;
   const [modalIsOpen, setIsOpen] = React.useState(false);
@@ -50,9 +50,9 @@ const Sidebar = ({cart, handleRemoveFromCart}) => {
           <button className='w-[116px] mt-1 font-[400] text-[16px] text-[#707070]   '>Your Profile</button>
         </div>
 
-        <OrderBtn />
+        <OrderBtn order={order} handleRemoveOrder={handleRemoveOrder} />
 
-        <CartBtn cart={cart} handleRemoveFromCart={handleRemoveFromCart}  />
+        <CartBtn cart={cart} handleRemoveFromCart={handleRemoveFromCart} handleCheckout={handleCheckout}  />
         
 
         <div className='w-[100%] mt-2 h-[50px] flex items-center rounded-[12px]'>

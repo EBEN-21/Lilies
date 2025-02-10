@@ -2,15 +2,16 @@ import React from 'react'
 import Sidebar from '../components/Sidebar'
 import Board from '../components/Board'
 
-const Dashboard = ({ FoodData, count, handleDecrement, handleIncrement, stock, handleAddToCart, cart, order, handleRemoveFromCart }) => {
+const Dashboard = ({ FoodData, count, handleDecrement, handleIncrement, stock, handleAddToCart, cart,handleRemoveFromCart, order, handleCheckout, handleRemoveOrder }) => {
   return (
     <div className='relative m-auto h-auto'>
       
-      <Sidebar cart={cart} order={order} handleRemoveFromCart={handleRemoveFromCart} />
+      <Sidebar cart={cart}  handleRemoveFromCart={handleRemoveFromCart} order={order} handleCheckout={handleCheckout} handleRemoveOrder={handleRemoveOrder}
+         />
       <Board 
       FoodData={FoodData} count={count} stock={stock}
       handleDecrement={handleDecrement} handleIncrement={handleIncrement}
-      handleAddToCart={handleAddToCart}
+      handleAddToCart={handleAddToCart} 
        />
 
     </div>

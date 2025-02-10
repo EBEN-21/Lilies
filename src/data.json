@@ -7,7 +7,7 @@
       "description": "Tasty good food for you",
       "count": 0,
       "stock": 10,
-      "ready": true
+      "ready": false
     },
     {
       "id": 2,
@@ -68,7 +68,7 @@
       "description": "Creamy pasta dish with grilled chicken, fettuccine noodles, and Parmesan cheese.",
       "count": 0,
       "stock": 5,
-      "ready": true
+      "ready": false
     },
     {
       "id": 8,
@@ -88,7 +88,7 @@
       "description": "A mix of fresh vegetables sautéed in a savory sauce, served over rice.",
       "count": 0,
       "stock": 34,
-      "ready": true
+      "ready": false
     },
     {
       "id": 10,
@@ -108,7 +108,7 @@
       "description": "Skewered and grilled marinated lamb pieces, served with a side of tzatziki.",
       "count": 0,
       "stock": 29,
-      "ready": true
+      "ready": false
     },
     {
       "id": 12,
@@ -128,7 +128,7 @@
       "description": "Creamy soup with clams, potatoes, onions, and celery.",
       "count": 0,
       "stock": 19,
-      "ready": true
+      "ready": false
     },
     {
       "id": 14,
@@ -148,7 +148,7 @@
       "description": "Succulent shrimp sautéed in garlic butter sauce, tossed with linguine.",
       "count": 0,
       "stock": 23,
-      "ready": true
+      "ready": false
     }
   ]
   

@@ -33,7 +33,7 @@ const customStyles = {
 
 Modal.setAppElement("#root");
 
-const CartBtn = ({cart, handleRemoveFromCart}) => {
+const CartBtn = ({cart, handleRemoveFromCart, handleCheckout}) => {
 
   const totalAmount = cart.reduce((acc, item) => acc + item.price * item.count, 0);
 
@@ -103,7 +103,7 @@ const CartBtn = ({cart, handleRemoveFromCart}) => {
                 <p className="w-[90px] font-[700] text-[20px] text-[#00302E] ml-5 ">₦{totalAmount}</p>
               </div>
 
-              <CheckoutBtn />
+              <CheckoutBtn handleCheckout={handleCheckout} />
           </div>
         
       )}
