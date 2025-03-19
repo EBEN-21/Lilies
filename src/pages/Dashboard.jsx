@@ -4,7 +4,7 @@ import Board from '../components/Board'
 
 const Dashboard = ({ FoodData, count, handleDecrement, handleIncrement, stock, handleAddToCart, cart,handleRemoveFromCart, order, handleCheckout, handleRemoveOrder }) => {
   return (
-    <div className='relative m-auto h-auto'>
+    <div className='flex h-auto'>
       
       <Sidebar cart={cart}  handleRemoveFromCart={handleRemoveFromCart} order={order} handleCheckout={handleCheckout} handleRemoveOrder={handleRemoveOrder}
          />

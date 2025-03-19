@@ -52,8 +52,8 @@ const OrderBtn = ({order, handleRemoveOrder}) => {
   return (
     <div>
         <div className='w-[100%] mt-2 h-[50px] flex items-center rounded-[12px]'>
-            <img src={ordericon} className='w-[17px] h-[19.64px] ml-[7.5%]' alt="" />
-            <button onClick={openModal} className='w-[107px] mr-3 mt-1 font-[400] text-[16px] text-[#707070]'>Orders</button>
+            <img src={ordericon} className='w-[19px] h-[20px] ml-[17px] ' alt="" />
+            <button onClick={openModal} className=' ml-4 mr-1 mt-1 font-[400] text-[16px] text-[#707070]'>Orders</button>
             <div className="ml-12">
                 <span className='w-[25px] h-[26px] mr-2 bg-[#6add35] items-center justify-center flex border-[1px]  font-[700] text-[16px] rounded-[5px]  '>{order?.length || 0 }</span>
             </div>

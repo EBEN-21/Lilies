@@ -8,8 +8,8 @@ import Footer from '../components/Footer'
 
 const Homepage = () => {
   return (
-    <div className='bg-[#00302E] m-auto h-auto'>
-      <Navbar />
+    <div className='bg-[#00302E] h-auto'>
+      <Navbar  />
       <Hero />
       <Features />
       <Mail />

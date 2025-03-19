@@ -56,9 +56,9 @@ const CartBtn = ({cart, handleRemoveFromCart, handleCheckout}) => {
   return (
     <div>
         <div className='w-[100%] mt-2 h-[50px] flex items-center rounded-[12px]'>
-            <img src={carticon} className='w-[17px] h-[19.64px] ml-[7.5%]' alt="" />
-            <button onClick={openModal} className='w-[107px] mt-1 font-[400] text-[16px] text-[#707070]'>Your Cart</button>
-            <div className="ml-11">
+            <img src={carticon} className='w-[15px] h-[17px] ml-[19px] ' alt="" />
+            <button onClick={openModal} className='ml-4 mt-1 font-[400] text-[16px] text-[#707070]'>Your Cart</button>
+            <div className="ml-8">
                 <span className='w-[25px] h-[25px] bg-[#F3C294] items-center justify-center flex border-[1px]  font-[700] text-[16px] rounded-[5px]  '>{cart?.length || 0 }</span>
             </div>
         </div>

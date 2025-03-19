@@ -2,17 +2,18 @@ import React from 'react'
 
 const Mail = () => {
   return (
-    <div className="flex  w-full px-14  mt-[13%]" > 
-      <div className="flex flex-col ml-1">
-        <h1 className="w-[549px] h-[33px] font-[700] text-[29px]  text-[#FBDDBB] ">Get notified when we update!</h1>
+    <div className="px-4 sm:px-16 mt-24 block sm:flex md:flex-wrap lg:flex-nowrap items-center justify-center sm:justify-between " > 
+      <div className=" ">
+        <h1 className="font-bold text-base sm:text-lg md:text-xl lg:text-2xl text-[#FBDDBB] ">Get notified when we update!</h1>
 
-        <p className="w-[520px] h-[66px] mt-7 font-[400] text-[18px] text-white ">Get notified when we add new items to our specials menu, update our price list of have promos!</p>
+        <p className="mt-4 font-normal text-sm sm:text-sm text-white sm:w-[65%] ">Get notified when we add new items to our specials menu, update our price list of have promos!</p>
       </div>
 
-      <div>
-        <form className="flex items-center mt-[12%] mr-1">
-            <input type="email" className="w-[240px] p-3 h-[51px] rounded-[5px] border-[1px] placeholder:text-[14px] " placeholder='emailexample@gmail.com' />
-            <button className="w-[170px] h-[51px] bg-[#FBDDBB] ml-2 rounded-[5px] font-[500] text-[18px] text-center text-[#00302E] ">Get Notified</button>
+      <div className='mt-4 sm:mr-1 xl:mr-12'>
+        <form className="sm:justify-between sm:flex sm:space-x-2">
+            <input type="email" className="sm:w-[279px] sm:h-[51px] sm:p-0 p-1 pl-3 rounded-md placeholder:text-sm " placeholder='emailexample@gmail.com' />
+
+            <button className="sm:w-[162px] sm:h-[51px] p-2 sm:p-0 mt-3 sm:mt-0 bg-[#FBDDBB] rounded-md font-medium text-sm text-[#00302E] active:scale-95 ">Get Notified</button>
         </form>
       </div>
 

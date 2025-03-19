@@ -62,7 +62,7 @@ const Fooditems = ({
     <div>
 
       <div>
-          <div className='w-[200px] h-[293px] mb-[9%] rounded-[5px] border-[0.3px] border-[rgba(0, 48, 46, 0.14)] flex flex-col items-center justify-center '>
+          <div className='w-[200px] h-[293px] mb-[20%] rounded-[5px] border-[0.3px] border-[rgba(0, 48, 46, 0.14)] flex flex-col items-center justify-center '>
       
           <img src={image} className='w-[90px] h-[90px] ' alt="" />
 

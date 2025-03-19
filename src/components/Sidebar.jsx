@@ -31,9 +31,9 @@ const Sidebar = ({cart, handleRemoveFromCart, order, handleCheckout, handleRemov
   } 
 
   return (
-    <div className='bg-[#FBFBFB] w-[23%] h-screen fixed flex flex-col z-10'>
+    <div className='bg-[#FBFBFB] w-[25%] h-screen fixed flex flex-col z-10'>
       
-      <div className='flex items-center w-[127px] h-[58px] mt-[30px] ml-[53px] ' >
+      <div className='flex items-center w-[127px] h-[58px] mt-20 ml-[53px] ' >
         <img src={logo} className="w-[39px] h-[49px] items-center mr-3" alt="" />
         <p className="w-[92px] h-[46px] text-[32px] font-bold items-center text-black">Lilies</p>
       </div>

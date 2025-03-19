@@ -14,7 +14,7 @@ const customStyles = {
 
   content: {
     position: "absolute",
-    height: "100vh",
+      
     top: "0px",
     left: "50%",
     right: "0px",
@@ -42,10 +42,6 @@ const CheckoutBtn = ({handleCheckout}) => {
         setIsOpen(false);
       }
 
-      const handleCheckoutClick = () => {
-        handleCheckout(); // This function will handle transferring the cart to the orders
-        closeModal(); // Close the modal after checkout
-      };
 
   return (
     <div>
@@ -73,8 +69,8 @@ const CheckoutBtn = ({handleCheckout}) => {
 
                         <input type="text" className="w-[488px] h-[71px] border-[1px] p-6 text-[14px] font-[400] border-[#FBDDBB] rounded-[5px] mt-10 " placeholder="House Address" required/>
 
+                        <button className="w-[488px] h-[60px] bg-[#00302E] mt-8 text-center font-[600] text-[13px] text-[#F3C294]" onClick={handleCheckout}>Make Payement</button>
                     </form>
-                        <button className="w-[488px] h-[60px] bg-[#00302E] mt-8 text-center font-[600] text-[13px] text-[#F3C294]" onClick={handleCheckoutClick}>Make Payement</button>
                 </div>
             </div>
         </Modal>

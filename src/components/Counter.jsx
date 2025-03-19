@@ -7,7 +7,7 @@ const Counter = ({count, handleDecrement, handleIncrement}) => {
 
   
   return (
-    <div className='w-[50%]'>
+    <div className='w-[50%] ml-6'>
       <button
         className={`w-[48px] h-[55px] bg-[#F3C294]
                   text-[#00302E] text-[31px] font-[600] text-center mr-2 

@@ -28,9 +28,9 @@ const Board = ({ FoodData, count, handleIncrement, handleDecrement, handleAddToC
 
   
   return (
-    <div className='ml-36 w-[79%] flex flex-col items-center '>
+    <div className='ml-56 w-[79%] flex flex-col items-center '>
       
-      <div className='w-[79%] ml-16 flex items-center justify-between  mt-[70px]' >
+      <div className='w-[79%] ml-16 flex items-center justify-between  mt-[90px]' >
 
         <div >
             <h1 className='w-[378px] h-[33px] font-[600] text-[21px] text-[#00302E] '>
@@ -45,7 +45,7 @@ const Board = ({ FoodData, count, handleIncrement, handleDecrement, handleAddToC
 
       </div>
 
-      <div className='w-[83%] ml-[13%] flex flex-wrap items-center justify-between mt-[39px] '>
+      <div className='w-[83%] ml-[13%] flex flex-wrap items-center justify-between mt-[59px] '>
         {FoodData?.map((food,index) => (
           <Fooditems 
             key={index}

@@ -7,22 +7,22 @@ import special3 from '../assets/bon-vivant-qom5MPOER-I-unsplash 4.png'
 const Features = () => {
   return (
     
-    <div className="flex flex-col px-11 mt-[8%]">
-        <h1 className="w-full text-center font-[700] mb-2 text-white text-[28px] ">Special Meals of the day!</h1>
+    <div className="px-4 sm:px-16 mt-24 sm:flex sm:flex-col items-center justify-center">
+        <h1 className="w-full text-center font-[700] text-base sm:text-lg md:text-xl lg:text-2xl xl:text-2xl mb-3 text-white  ">Special Meals of the day!</h1>
 
-        <p className="w-[609px] text-center m-auto leading-[33px] text-white font-[400] text-[17px] h-[77px] ">Check our specials of the day and get discounts on all our meals and swift delivery to what ever location within Ilorin.</p>
+        <p className="text-white text-center text-xs sm:text-sm font-normal sm:w-[600px] sm:text-wrap ">Check our specials of the day and get discounts on all our meals and swift delivery to what ever location within Ilorin.</p>
 
-        <div className="flex justify-between items-center p-1">
-      <Menu 
+        <div className="w-full sm:flex md:flex-wrap md:justify-center lg:justify-between sm:items-center mt-9 ">
+        <Menu 
         description={"Stir fry pasta yada yada yada because of Sesan"}
         title={"Stir Fry Pasta"}
         imgUrl={special1}
-      />
-      <Menu 
+        />
+        <Menu 
         description={"Stir fry pasta yada yada yada because of Sesan"}
         title={"Meat Balls"}
         imgUrl={special2}
-      />
+        />
       <Menu
         description={"Stir fry pasta yada yada yada because of Sesan"}
         title={"Stir Fry Pasta"}
